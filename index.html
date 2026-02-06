@@ -12,7 +12,7 @@
     :root {
       --bg1: #ffd6e7;
       --bg2: #ffeef6;
-      --card: #ffffffcc;
+      --card: rgb(255, 255, 255);
       --yes: #ff3b7a;
       --yesHover: #ff1f68;
     }
@@ -41,6 +41,8 @@
     }
 
     .card {
+      background-color:red;
+      color: #ff1f68;
       width: min(720px, 92vw);
       padding: 26px 22px;
       background: var(--card);
@@ -132,9 +134,10 @@
 <body>
   <canvas id="confettiCanvas"></canvas>
 
-  <main class="card">
+  <main class="card" >
     <!-- ANIMAL WITH HEART -->
-    <svg class="art" viewBox="0 0 320 240" xmlns="http://www.w3.org/2000/svg">
+    <!-- <svg class="art" viewBox="0 0 320 240" xmlns="http://www.w3.org/2000/svg"> -->
+      <img src="OIP.jpg" alt="lili" >
       <defs>
         <linearGradient id="fur" x1="0" x2="1">
           <stop offset="0" stop-color="#f7c7a1"/>
@@ -171,8 +174,7 @@
             fill="#ff7aa2"/>
     </svg>
 
-    <h1>nirali will you be my valentine?</h1>
-
+    <h1>Tanuuu will you be my valentine?</h1>
     <section class="button-zone" id="zone">
       <button id="yesBtn">Yes</button>
       <button id="noBtn">No</button>
